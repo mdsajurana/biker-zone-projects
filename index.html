@@ -18,6 +18,7 @@
         --color-clifford: #da373d;
         --color-primary: #E76F51;
         --color-primary-bg: rgba(231, 111, 81, 0.1);
+        --color-gray-color: rgba(217, 219, 225, 1);
       }
     </style>
 </head>
@@ -346,13 +347,15 @@
                             </div>
                             <div class="collapse collapse-arrow bg-base-100 border border-base-300 my-4">
                                 <input type="radio" name="my-accordion-2" />
-                                <div class="collapse-title font-semibold">My bike has been in storage is it safe to ride?</div>
+                                <div class="collapse-title font-semibold">My bike has been in storage is it safe to
+                                    ride?</div>
                                 <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit
                                     Profile" to make changes.</div>
                             </div>
                             <div class="collapse collapse-arrow bg-base-100 border border-base-300">
                                 <input type="radio" name="my-accordion-2" />
-                                <div class="collapse-title font-semibold">What rules should I follow when riding my bike?</div>
+                                <div class="collapse-title font-semibold">What rules should I follow when riding my
+                                    bike?</div>
                                 <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit
                                     Profile" to make changes.</div>
                             </div>
@@ -363,9 +366,37 @@
 
         </section>
     </main>
-    <footer>
+    <footer class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
+        <aside>
 
+            <p>
+                Download Now
+                License
+            </p>
+            <ul class="flex gap-6">
+                <li>About</li>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Careers</li>
+                <li>Help</li>
+                <li>Privacy Policy</li>
+            </ul>
+            <p class="text-gray-color">© 2020 bike. All rights reserved</p>
+        </aside>
+        <nav>
+            <h6 class="footer-title">Get the App</h6>
+            <div class="grid grid-cols-1 gap-4">
+                <a>
+                    <img src="images/others/android.png" alt="" class="w-[135px]">
+                </a>
+                <a>
+                    <img src="images/others/ios.png" alt="" class="w-[135px]">
+                </a>
+
+            </div>
     </footer>
+    </nav>
+
 </body>
 
 </html>
